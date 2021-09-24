@@ -43,4 +43,12 @@ class Kernel extends BaseKernel
         }
         return parent::getCacheDir();
     }
+
+    public function getLogDir()
+    {
+        if ($this->environment === 'prod') {
+            return sys_get_temp_dir();
+        }
+        return parent::getLogDir();
+    }
 }
