@@ -35,4 +35,8 @@ class Kernel extends BaseKernel
             $routes->import('../config/{routes}.php');
         }
     }
+    public function getCacheDir()
+    {
+        return dirname(__DIR__).'/var/'.$this->environment.'/cache';
+    }
 }
