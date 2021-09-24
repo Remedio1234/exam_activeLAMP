@@ -2,7 +2,7 @@ runtime: php74
 
 env_variables:
   APP_ENV: prod
-  APP_SECRET: 2a618675a6dee104e93f5cfff0ca8e3b
+  APP_SECRET: 85f0edfc907ac1c275eb31be11353c36
 
 handlers:
   # Declare the build and bundles directory as static assets to be served by the
