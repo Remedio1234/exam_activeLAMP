@@ -4,6 +4,9 @@ env_variables:
   APP_ENV: prod
   APP_SECRET: 85f0edfc907ac1c275eb31be11353c36
 
+settings:
+  cache: false  
+
 handlers:
   # Declare the build and bundles directory as static assets to be served by the
   # App Engine CDN.
